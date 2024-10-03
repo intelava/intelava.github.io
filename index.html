@@ -1,214 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Tarkan Atak Kan - Resume</title>
-<style>
-/* Basic styling for the entire page */
-body {
-font-family: 'Arial', sans-serif;
-margin: 0;
-padding: 0;
-background-color: #f4f4f4;
-color: #333;
-line-height: 1.6;
-}
-
-/* Styling for the header section /
-header {
-background-color: #333;
-color: white;
-text-align: center;
-padding: 2rem 0;
-position: relative; / To position the contact links absolutely */
-}
-
-.contact-links {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-}
-
-.contact-links a {
-color: white;
-margin: 0 10px;
-text-decoration: none;
-}
-
-/* Styling for the main content sections */
-section {
-padding: 2rem;
-margin: 1rem;
-background-color: white;
-border-radius: 5px;
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-/* Styling for headings within sections */
-h2 {
-color: #333;
-border-bottom: 2px solid #333;
-padding-bottom: 10px;
-}
-
-/* Styling for lists (experience, projects, etc.) */
-ul {
-list-style: none;
-padding: 0;
-}
-
-li {
-margin-bottom: 15px;
-}
-
-/* Styling for project descriptions */
-.project-description {
-margin-top: 5px;
-font-size: 0.9em;
-}
-
-/* Styling for technical skills /
-.skills-list {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); / Responsive columns */
-gap: 10px;
-}
-
-/* Styling for the footer */
-footer {
-text-align: center;
-padding: 1rem 0;
-background-color: #333;
-color: white;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tarkan Atak Kan - AI/ML Student</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#other">Other</a></li>
+        </ul>
+    </nav>
 
-<header>
-<h1>Tarkan Atak Kan</h1>
-<p>Computer Engineering Student</p>
-<div class="contact-links">
-<a href="https://github.com/intelava" target="_blank">GitHub</a> |
-<a href="https://www.linkedin.com/in/tarkan-atak-kan" target="_blank">LinkedIn</a> |
-<a href="mailto:tarkanatakkan@gmail.com">Email</a> |
-</div>
-</header>
+    <!-- Sections -->
+    <section id="about">
+        <div class="content">
+            <h1>About Me</h1>
+            <p>Hello, I'm Tarkan Atak Kan, a student specializing in Artificial Intelligence and Machine Learning at TU Darmstadt. I am passionate about the advancements in AI and its potential to transform various industries.</p>
+        </div>
+    </section>
 
-<section id="education">
-<h2>Education</h2>
-<ul>
-<li>
-<strong>Istanbul Technical University</strong>, Turkey<br>
-Bachelor of Science in Computer Engineering<br>
-Sep 2019 - July 2024
-</li>
-</ul>
-</section>
+    <section id="projects">
+        <div class="content">
+            <h1>Projects</h1>
+            <ul>
+                <li><strong>AI-Powered Chatbot:</strong> Developed a chatbot using deep learning techniques to assist customer support teams.</li>
+                <li><strong>Machine Learning in Healthcare:</strong> Built a predictive model to identify patients at risk for heart disease using a dataset from the UCI repository.</li>
+                <li><strong>Self-Driving Car Simulation:</strong> Created a self-driving car simulator using reinforcement learning techniques.</li>
+            </ul>
+        </div>
+    </section>
 
-<section id="experience">
-<h2>Experience</h2>
-<ul>
-<li>
-<strong>YapiKredi Technology</strong> - R&D Engineer Intern<br>
-Istanbul, Turkey | July 2023 - March 2024<br>
-<ul>
-<li>Team of applied data science</li>
-<li>Mainly focused on solving OCR problems on real world data</li>
-<li>Worked on face verification with deep learning</li>
-</ul>
-</li>
-<li>
-<strong>hevi.ai</strong> - AI Research Intern, Deep Learning Engineer<br>
-Istanbul, Turkey | July 2022 - Sep 2022, Sep 2022 - May 2023<br>
-<ul>
-<li>Worked on medical image retrieval project organized by Scientific and Technological Research Council of Turkey.</li>
-<li>Designed, created and evaluated several types of neural network models for context based retrieval of magnetic resonance images.</li>
-<li>Also responsible for processing and preparing medical image data.</li>
-</ul>
-</li>
-<li>
-<strong>binamod</strong> - AI Research Intern<br>
-Istanbul, Turkey | Feb 2022 - May 2022<br>
-<ul>
-<li>Developed original algorithms for object detection and data processing.</li>
-<li>Implemented image segmentation algorithm using Keras with 95% accuracy.</li>
-</ul>
-</li>
-</ul>
-</section>
+    <section id="other">
+        <div class="content">
+            <h1>Other</h1>
+            <p>Besides AI and ML, I am interested in data science, cloud computing, and the ethical implications of AI. In my free time, I enjoy hiking, reading science fiction novels, and playing chess.</p>
+        </div>
+    </section>
 
-<section id="publications">
-<h2>Publications and Awards</h2>
-<ul>
-<li>
-<strong>Prostate Lesion Estimation using Prostate Masks from Biparametric MRI</strong>, doi.org/10.48550/arXiv.2301.09673 2023, Jan (Co-Author)
-</li>
-<li>
-<strong>European Congress of Radiology 2023</strong>, 2023, March (Presenter, Content Based Medical Image Retrieval of Multi-Parametric Prostate MRI)
-</li>
-<li>
-<strong>The Scientific and National Research Council of Turkey, TUBITAK</strong>, 2022, November (Researcher Scholarship, Evaluation of Prostate Cancer with Machine Learning)
-</li>
-</ul>
-</section>
-
-<section id="projects">
-<h2>Projects</h2>
-<ul>
-<li>
-<strong>Computer Vision, Concrete Crack Segmentation</strong> | Feb 2022 - May 2022 | <a href="https://git.io/CrackSeg" target="_blank">git.io/CrackSeg</a><br>
-<div class="project-description">Concrete crack segmentation using VGG16 and U-Net with 95% accuracy</div>
-</li>
-<li>
-<strong>REST API for E-Commerce Records</strong> | Jul 2022 | <a href="https://git.io/shopAPI" target="_blank">git.io/shopAPI</a><br>
-<div class="project-description">A RESTful API designed in Python and Flask, backed by SQLite and SQLAlchemy.</div>
-</li>
-<li>
-<strong>Website for an Imaginary High School</strong> | Apr 2020 - Jul 2020 | <a href="https://git.io/intelava" target="_blank">git.io/intelava</a><br>
-<div class="project-description">Course project</div>
-</li>
-</ul>
-</section>
-
-<section id="skills">
-<h2>Technical Skills</h2>
-<div class="skills-list">
-<div>C++</div>
-<div>C</div>
-<div>Python</div>
-<div>HTML</div>
-<div>CSS</div>
-<div>TensorFlow/Keras</div>
-<div>PyTorch</div>
-<div>Numpy</div>
-<div>Matplotlib</div>
-<div>Pandas</div>
-<div>Git</div>
-<div>Latex</div>
-<div>FSL</div>
-<div>3D Slicer</div>
-<div>SPM</div>
-</div>
-</section>
-
-<section id="positions">
-<h2>Positions of Responsibility</h2>
-<ul>
-<li>
-<strong>Volunteer Teacher, AIESEC Cairo, Egypt</strong> | July 2021 - Aug 2021<br>
-Organized several activities for children at a course center.
-</li>
-<li>
-<strong>Volunteer Preparation, AIESEC Istanbul</strong> | Jun 2021 - Sep 2021<br>
-Tracked the condition of people in a volunteering project abroad.
-</li>
-<li>
-<strong>Volunteer, Make A Wish</strong> | Mar 2022 - Sep 2022<br>
-Gathering their wishes from children
-</li>
-</ul>
-</section>
-
-<footer>
-<p>&copy;
+    <!-- JavaScript for smooth scrolling -->
+    <script src="script.js"></script>
+</body>
+</html>
