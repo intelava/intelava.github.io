@@ -6,16 +6,18 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+    background-color: #ecf0f1;
+    color: #2c3e50;
     scroll-behavior: smooth;
 }
 
 nav {
     position: fixed;
     width: 100%;
-    background-color: #333;
-    padding: 10px 0;
+    background-color: #2c3e50;
+    padding: 15px 0;
 }
 
 nav ul {
@@ -29,42 +31,48 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #ecf0f1;
     text-decoration: none;
     font-size: 18px;
-    transition: color 0.3s ease;
+    padding: 10px 20px;
+    border: 2px solid #ecf0f1;
+    border-radius: 30px;
+    transition: all 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #f4a261;
+    background-color: #e74c3c;
+    color: #ffffff;
 }
 
 section {
     height: 100vh;
-    padding: 60px 20px;
+    padding: 80px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f4f4f9;
 }
 
 section:nth-child(odd) {
-    background-color: #f4a261;
-    color: #fff;
+    background-color: #3498db;
+    color: #ffffff;
 }
 
 .content {
-    max-width: 800px;
+    max-width: 900px;
     text-align: center;
 }
 
 h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-size: 42px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    font-weight: 700;
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 1.8;
 }
 
 ul {
@@ -72,8 +80,8 @@ ul {
 }
 
 ul li {
-    margin-bottom: 10px;
-    font-size: 18px;
+    margin-bottom: 15px;
+    font-size: 20px;
 }
 
 /* Mobile Responsiveness */
@@ -83,13 +91,15 @@ ul li {
     }
 
     h1 {
-        font-size: 28px;
+        font-size: 32px;
     }
 
     p, ul li {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
+
+/* Icon Hover */
 a i {
     color: #0077B5; /* LinkedIn's official blue color */
     margin-left: 10px;
