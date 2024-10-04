@@ -109,3 +109,12 @@ a i {
 a i:hover {
     color: #005582; /* Slightly darker blue on hover */
 }
+nav ul li a i {
+    font-size: 24px; /* Adjust size of the LinkedIn icon */
+    color: #ecf0f1;
+    transition: color 0.3s ease;
+}
+
+nav ul li a i:hover {
+    color: #e74c3c;
+}
