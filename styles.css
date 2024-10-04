@@ -100,9 +100,10 @@ nav ul li a {
     color: #ecf0f1;
     text-decoration: none;
     font-size: 18px;
-    padding: 10px 20px;
+    width: 50px; /* Fixed width for the icon container */
+    height: 50px; /* Fixed height for the icon container */
     border: 2px solid #ecf0f1;
-    border-radius: 30px;
+    border-radius: 50%; /* Make the container a circle */
     display: flex; /* Flexbox for centering */
     align-items: center; /* Vertical centering */
     justify-content: center; /* Horizontal centering */
@@ -110,10 +111,12 @@ nav ul li a {
 }
 
 nav ul li a i {
-    font-size: 24px; /* Adjust the size of the LinkedIn icon */
+    font-size: 24px; /* Adjust size of the LinkedIn icon */
+    margin: 0; /* Remove any margin around the icon */
 }
 
 nav ul li a:hover {
     background-color: #e74c3c;
     color: #ffffff;
 }
+
